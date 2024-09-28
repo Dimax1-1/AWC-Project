@@ -1,0 +1,233 @@
+html{
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.form_modifica {
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+}
+
+h1 {
+text-align: center;
+color: azure;
+}
+
+.edit-form {
+display: flex;
+flex-direction: column;
+}
+
+label {
+margin-top: 10px;
+color: azure;
+}
+
+input {
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button {
+margin-top: 20px;
+padding: 10px 20px;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.link-button {
+display: inline-block;
+padding: 10px 20px;
+margin-top: 30px;
+
+color: white;
+text-align: center;
+text-decoration: none;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#modifica {
+  background-color: #27282c;
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  color: #27c010;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 15px;
+  transition: 0.5s;
+  overflow: hidden;
+
+}
+
+#modifica:hover {
+  background: rgb(1, 199, 1);
+  color: #050801;
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 5px rgb(1, 199, 1) 0 0 5px rgb(1, 199, 1) 0 0 5px rgb(1, 199, 1) 0 0 5px rgb(1, 199, 1);
+  cursor: pointer;
+}
+
+#modifica span {
+position: relative;
+}
+
+#annulla {
+  background-color: #27282c;
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  color: rgb(202, 6, 6);
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 15px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+#annulla:hover {
+  background: rgb(202, 6, 6);
+  color: #050801;
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 5px rgb(202, 6, 6) 0 0 5px rgb(202, 6, 6) 0 0 5px rgb(202, 6, 6) 0 0 5px rgb(202, 6, 6);
+  cursor: pointer;
+}
+
+#mod{
+  background-color: #27282c;
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  color: #1e9bff;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 15px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+#mod:hover {
+  background: #1e9bff;
+  color: #050801;
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 5px #1e9bff 
+              0 0 5px #1e9bff 
+              0 0 5px #1e9bff 
+              0 0 5px #1e9bff;
+  cursor: pointer;
+}
+
+
+
+.lista {
+background-color: #5801a9;
+width: 500px;
+color: white;
+border-radius: 20px;
+}
+
+.autocomplete-items {
+padding-left: 15px;
+}
+
+.popupElimina {
+  position: fixed;
+  z-index: 999;
+  width: 400px;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  visibility: hidden;
+  transition: trasform 0.4s, top 0.4s;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.popupElimina h2 {
+  margin-top: 10px;
+  font-size: 38px;
+  color: black;
+}
+
+.popupElimina p {
+  font-size: 18px;
+  font-weight: 500px;
+  color: black;
+}
+
+.conferma {
+  background-color: #27282c;
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  color: #27c010;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 15px;
+  transition: 0.5s;
+  overflow: hidden;
+  
+}
+
+.conferma:hover {
+  background:rgb(1, 199, 1);
+  color: #050801;
+  letter-spacing: 0.25em;
+  box-shadow:  0 0 5px rgb(1, 199, 1)
+               0 0 5px rgb(1, 199, 1)
+               0 0 5px rgb(1, 199, 1) 
+               0 0 5px rgb(1, 199, 1);
+  cursor: pointer;
+}
+
+
+.annulla {
+  background-color: #27282c;
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  color: rgb(202, 6, 6);
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 15px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.annulla:hover {
+  background: rgb(202, 6, 6);
+  color: #050801;
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 5px rgb(202, 6, 6) 
+              0 0 5px rgb(202, 6, 6) 
+              0 0 5px rgb(202, 6, 6)
+              0 0 5px rgb(202, 6, 6);
+  cursor: pointer;
+}
+
+
+.open-popup {
+  visibility: visible;
+}
+

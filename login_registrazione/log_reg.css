@@ -1,0 +1,114 @@
+html, body {
+  height: 100%;
+}
+  
+.lista {
+  background-color: red;
+  width: 300px;
+  color: white;
+  border-radius: 20px;
+}
+
+.autocomplete-items {
+  padding-left: 15px;
+}
+
+/* Stile per il form */
+#registrationForm {
+  max-width: 400px; /* Larghezza massima del form */
+  margin: 0 auto; /* Centra il form nella pagina */
+}
+
+/* Stile per ciascun div nel form */
+#registrationForm div {
+  margin-bottom: 10px; /* Spazio tra i campi */
+}
+
+/* Stile per le etichette */
+#registrationForm label {
+  display: block; /* Rendi le etichette una riga separata */
+  font-weight: bold; /* Rendi il testo in grassetto */
+}
+
+/* Stile per gli input */
+#registrationForm input {
+  width: 100%; /* Riempie completamente il div padre */
+  padding: 8px; /* Spazio interno all'input */
+  box-sizing: border-box; /* Include il padding nella larghezza totale */
+}
+
+#registrationForm button {
+  background-color: #27282c;
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  color: #1e9bff;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 15px;
+  transition: 0.5s;
+  overflow: hidden;
+  border: none;
+}
+
+/* Stile per il pulsante di accesso quando si passa sopra */
+#registrationForm button:hover {
+  background: #1e9bff;
+  color: #050801;
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 5px #1e9bff 0 0 5px #1e9bff 0 0 5px #1e9bff 0 0 5px #1e9bff;
+  cursor: pointer;
+}
+
+
+/* Stile per il form */
+#loginForm {
+  max-width: 400px; /* Larghezza massima del form */
+  margin: 0 auto; /* Centra il form nella pagina */
+}
+
+/* Stile per ciascun div nel form */
+#loginForm div {
+  margin-bottom: 10px; /* Spazio tra i campi */
+}
+
+/* Stile per le etichette */
+#loginForm label {
+  display: block; /* Rendi le etichette una riga separata */
+  font-weight: bold; /* Rendi il testo in grassetto */
+}
+
+/* Stile per gli input */
+#loginForm input {
+  width: 100%; /* Riempie completamente il div padre */
+  padding: 8px; /* Spazio interno all'input */
+  box-sizing: border-box; /* Include il padding nella larghezza totale */
+}
+
+/* Stile per il pulsante di accesso */
+#loginForm button {
+  background-color: #27282c;
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  color: #1e9bff;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 15px;
+  transition: 0.5s;
+  overflow: hidden;
+  border: none;
+}
+
+
+/* Stile per il pulsante di accesso quando si passa sopra */
+#loginForm button:hover {
+  background: #1e9bff;
+  letter-spacing: 0.25em;
+  color: #050801;
+  box-shadow: 0 0 5px #1e9bff 0 0 5px #1e9bff 0 0 5px #1e9bff 0 0 5px #1e9bff;
+  cursor: pointer;
+}
+
